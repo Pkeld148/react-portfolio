@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 import Contact from "./containers/Home/Contact/Contact";
 import Home from "./containers/Home/Home";
 import Header from "./components/Header/Header";
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Router>
+        <HashRouter>
           <Header />
           <Switch>
             <Route exact path="/react-portfolio" component={Home} />
@@ -21,7 +21,7 @@ function App() {
             />
           </Switch>
           <Footer />
-        </Router>
+        </HashRouter>
       </header>
     </div>
   );
