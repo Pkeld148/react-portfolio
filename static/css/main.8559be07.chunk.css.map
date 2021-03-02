@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AACA,KACE,mEACF","file":"main.8559be07.chunk.css","sourcesContent":["\r\nbody {\r\n  background-image: url(\"../src/assets/bg.jpg\");\r\n}\r\n"]}
